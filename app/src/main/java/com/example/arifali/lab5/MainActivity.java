@@ -62,7 +62,7 @@ public class MainActivity extends AppCompatActivity {
         i.putExtra("sms_body","default content");
         i.setType("vnd.android-dir/mms-sms");
         startActivity(i);*/
-        Toast.makeText(this, "SMS SENT", Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, "SMS SENT succesfully ", Toast.LENGTH_SHORT).show();
         etn.setText("");
         etm.setText("");
     }
